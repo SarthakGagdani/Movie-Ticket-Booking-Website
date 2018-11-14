@@ -1,0 +1,196 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: comic sans;
+}
+
+
+.booked
+{
+	position:absolute;
+	margin-left:0;
+	margin-right:0;
+	padding:0;
+	left:545px;
+	top:75px;
+	height:150px;
+	width: 300px;
+	
+}
+
+
+.swiper-container {
+      width: 380px;
+      height: 400px;
+    }
+
+.swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background:#fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+}
+
+
+.food1{position:absolute;
+	left:80px;
+	top:200px;}
+
+.food2{
+	position:absolute;
+	left:70px;
+	top:700px;
+	
+	
+}
+
+.qrcode{
+	position:absolute;
+	right:150px;
+	top:130px;
+	
+}	
+
+body{background-color:#F5F5F5;}
+.sign{
+		
+		border-radius:6px;
+		background-color:#1976D2;
+		border: none;
+		color: white;
+		padding: 8px 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		cursor: pointer;
+		float:right;
+		
+		}
+		
+.sign:hover {
+    background-color:#ECEFF1; 
+    color: black;
+}
+
+
+.receipt-holder {
+
+	padding: 100px 30px;
+	font-family: 'Calibri';
+	font-size: 150%;
+}
+.navbar li a:hover {
+     background-color: black;
+		color: white;
+	
+}
+
+.navbar ul 
+{	
+	height:50px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #0b243d;
+}
+
+.navbar li a {
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+table{background-color:#F5F5F5;border-collapse: collapse;border: 1px solid black;}
+
+tr,td{padding:20px;text-align: left}
+
+.book{
+		
+		border-radius:6px;
+		background-color:#0b243d;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin-top: 20px ;
+		cursor: pointer;
+		
+		}
+		
+.book:hover {
+    background-color:#263238 ;
+    color: white;
+}
+
+
+#loader {
+  position: absolute;
+  left:50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
