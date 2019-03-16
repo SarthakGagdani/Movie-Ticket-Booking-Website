@@ -3,3 +3,9 @@ Online movie ticket booking website with mysql database on Apache Xampp Server(U
 This mini-project was under subject DBMS(Database Management System) in third year 1st semester.
 
 On successful booking of ticket,a confirmation mail is sent to registered mobile number and the seats are successfully blocked.
+
+# Dependencies
+1> Xampp Server Phpmyadmin
+
+Copy the files in htdocs folder in C:\xampp\htdocs
+
